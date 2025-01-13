@@ -153,4 +153,3 @@ For technical issues or questions, please contact our support team at:
 ---
 
 This documentation serves as a complete guide to integrate DamascoGuard into your business processes securely and efficiently. For further customization or inquiries, feel free to reach out!
-```
