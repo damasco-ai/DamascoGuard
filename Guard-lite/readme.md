@@ -90,6 +90,7 @@ The API will return a JSON object containing the following keys:
 
 ```json
 {
+  "message": "Your financial report is not available at the moment due to privacy settings.",
   "success": true,
   "objective": "Request for financial report information.",
   "sentiment": "Curiosity",
@@ -99,8 +100,7 @@ The API will return a JSON object containing the following keys:
   "hack_score": 5,
   "security_breach": 0,
   "support_request": true,
-  "sales_request": false,
-  "message": "Your financial report is not available at the moment due to privacy settings."
+  "sales_request": false
 }
 ```
 
@@ -108,6 +108,7 @@ The API will return a JSON object containing the following keys:
 
 | Field               | Type    | Description                                                                                   |
 |---------------------|---------|-----------------------------------------------------------------------------------------------|
+| `message`           | boolean | The message of the user.                                                                       |
 | `success`           | boolean | Indicates whether the request was processed successfully.                                      |
 | `objective`         | string  | The detected objective or intent of the message (e.g., "requesting financial data", "inquiring about services"). |
 | `sentiment`         | string  | The detected sentiment of the message (e.g., Joy, Curiosity, Frustration, Anxiety, Hope).       |
